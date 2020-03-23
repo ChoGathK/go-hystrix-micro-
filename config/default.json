@@ -1,0 +1,8 @@
+{
+    "hystrix": {
+        "MaxConcurrentRequests": 100,
+        "SleepWindow": 1000,
+        "RequestVolumeThreshold": 2,
+        "ErrorPercentThreshold": 50
+    }
+}
